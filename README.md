@@ -3,8 +3,8 @@
 ## 功能说明
 
 本插件是基于ncmdump开发的用于ConverTool的插件，用于将网易云音乐 NCM 格式文件转换为 MP3 或 FLAC 格式。
-ConverTool仓库https://github.com/kckc7887/ConverTool
-ncmdump仓库https://github.com/taurusxin/ncmdump
+[ConverTool](仓库https://github.com/kckc7887/ConverTool)
+[ncmdump仓库](https://github.com/taurusxin/ncmdump)
 
 ## 支持的格式
 
