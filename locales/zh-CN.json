@@ -1,0 +1,13 @@
+{
+  "strings": {
+    "plugin/ncmdump/title": "网易云音乐解密",
+    "plugin/ncmdump/description": "将网易云音乐 NCM 格式文件转换为 MP3 或 FLAC 格式\n原工具仓库：https://github.com/taurusxin/ncmdump",
+    "plugin/ncmdump/target/mp3": "MP3（推荐，兼容性好）",
+    "plugin/ncmdump/target/flac": "FLAC（无损音质）",
+    "plugin/ncmdump/section/general": "常规设置",
+    "plugin/ncmdump/field/deleteSource": "删除源文件",
+    "plugin/ncmdump/field/deleteSource/help": "转换成功后是否删除原始 NCM 文件",
+    "plugin/ncmdump/field/preserveMetadata": "保留元数据",
+    "plugin/ncmdump/field/preserveMetadata/help": "是否保留歌曲的元数据信息"
+  }
+}

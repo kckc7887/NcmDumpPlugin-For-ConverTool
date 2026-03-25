@@ -1,0 +1,13 @@
+{
+  "strings": {
+    "plugin/ncmdump/title": "NetEase Cloud Music Decrypt",
+    "plugin/ncmdump/description": "Convert NetEase Cloud Music NCM format files to MP3 or FLAC format\nOriginal tool repository: https://github.com/taurusxin/ncmdump",
+    "plugin/ncmdump/target/mp3": "MP3 (Recommended, best compatibility)",
+    "plugin/ncmdump/target/flac": "FLAC (Lossless quality)",
+    "plugin/ncmdump/section/general": "General Settings",
+    "plugin/ncmdump/field/deleteSource": "Delete Source File",
+    "plugin/ncmdump/field/deleteSource/help": "Delete the original NCM file after successful conversion",
+    "plugin/ncmdump/field/preserveMetadata": "Preserve Metadata",
+    "plugin/ncmdump/field/preserveMetadata/help": "Preserve song metadata information"
+  }
+}

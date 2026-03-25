@@ -1,0 +1,27 @@
+# Build output
+bin/
+obj/
+
+# NuGet packages
+*.nupkg
+
+# Tools directory (full version only)
+tools/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp

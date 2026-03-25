@@ -1,0 +1,50 @@
+{
+  "pluginId": "ncmdump-converter",
+  "version": "1.0.0",
+  "assembly": "NcmDumpPlugin.dll",
+  "type": "NcmDumpPlugin.NcmConverterPlugin",
+  "supportsTerminationOnCancel": true,
+  "titleKey": "plugin/ncmdump/title",
+  "descriptionKey": "plugin/ncmdump/description",
+  "author": "Chnynnya",
+  "supportedInputExtensions": ["ncm"],
+  "supportedTargetFormats": [
+    {
+      "id": "mp3",
+      "displayNameKey": "plugin/ncmdump/target/mp3"
+    },
+    {
+      "id": "flac",
+      "displayNameKey": "plugin/ncmdump/target/flac"
+    }
+  ],
+  "configSchema": {
+    "sections": [
+      {
+        "id": "general",
+        "titleKey": "plugin/ncmdump/section/general",
+        "collapsedByDefault": false,
+        "fields": [
+          {
+            "key": "deleteSource",
+            "type": "Checkbox",
+            "labelKey": "plugin/ncmdump/field/deleteSource",
+            "helpKey": "plugin/ncmdump/field/deleteSource/help",
+            "defaultValue": false
+          },
+          {
+            "key": "preserveMetadata",
+            "type": "Checkbox",
+            "labelKey": "plugin/ncmdump/field/preserveMetadata",
+            "helpKey": "plugin/ncmdump/field/preserveMetadata/help",
+            "defaultValue": true
+          }
+        ]
+      }
+    ]
+  },
+  "supportedLocales": ["zh-CN", "en-US"],
+  "i18n": {
+    "localesFolder": "locales"
+  }
+}
